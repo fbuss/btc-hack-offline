@@ -161,3 +161,4 @@ if __name__ == '__main__':
     
     for cpu in range(args['cpu_count']):
         multiprocessing.Process(target = main, args = (database, args)).start()
+
